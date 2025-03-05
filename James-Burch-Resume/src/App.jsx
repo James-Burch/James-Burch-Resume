@@ -1,5 +1,22 @@
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+
+
 const App = () => {
-  return <h1>Hello</h1>
+  return (
+    <div>
+
+      <Navbar />
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+
+    </div>
+  );
 };
 
 export default App;
