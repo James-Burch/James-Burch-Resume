@@ -38,7 +38,7 @@
 }
 
 
-/* 🎯 Make Carousel Navigation Buttons Visible */
+/* Make Carousel Navigation Buttons Visible */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-color: rgba(0, 0, 0, 0.5);
@@ -48,7 +48,7 @@
     /* Increase click area */
 }
 
-/* 🎯 Keep Navigation Buttons Centered */
+/* Keep Navigation Buttons Centered */
 .carousel-control-prev,
 .carousel-control-next {
     position: absolute;
@@ -60,22 +60,23 @@
     /* Ensure buttons are fully visible */
 }
 
-/* 🎯 Show Buttons on Hover */
+/* Show Buttons on Hover */
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
     opacity: 1;
 }
 
-/* 🎯 Adjust Button Size */
+/* Adjust Button Size */
 .carousel-control-prev span,
 .carousel-control-next span {
     width: 50px;
     height: 50px;
 }
 
-/* 🎯 Make Buttons More Visible */
+/* Make Buttons More Visible */
 .carousel-control-prev,
 .carousel-control-next {
     filter: invert(100%);
     /* Turns buttons white for better visibility */
 }
+
