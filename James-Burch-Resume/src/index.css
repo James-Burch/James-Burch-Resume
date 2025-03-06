@@ -1,0 +1,39 @@
+/* Style Carousel Buttons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5%;
+}
+
+
+/* Fix the size of project images */
+.carousel-item img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin: auto;
+    /* Centers the image */
+}
+
+.carousel-item {
+    min-height: 400px;
+}
+
+
+
+/* Display descriptive text over project image */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    /* Dark semi-transparent background */
+    padding: 10px;
+    border-radius: 8px;
+}
